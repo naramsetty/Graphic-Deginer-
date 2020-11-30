@@ -1,0 +1,314 @@
+
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Naramsetty - Graphic Designer</title>
+      <link rel="shortcut icon" type="image/png" href="assets/img/icon/naramsetty-shankar.png" width="32px" >
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <link rel="stylesheet" href="assets/css/magnific-popup.css">
+      <link rel="stylesheet" href="assets/css/slicknav.min.css">
+      <link rel="stylesheet" href="assets/css/typography.css">
+      <link rel="stylesheet" href="assets/css/default-css.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script> 
+   </head>
+   <style>
+      * {box-sizing: border-box;}
+      body {font-family: Verdana, sans-serif;}
+      .mySlides {display: none;}
+      img {vertical-align: middle;}
+      /* Fading animation */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+      .text {font-size: 11px}
+      }
+   </style>
+   <body id="top">
+      <div id="preloader">
+         <div class="loader_line">
+         </div>
+      </div>
+      <header>
+         <div class="header-area">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-md-3 col-sm-12">
+                     <div class="logo">
+                        <a data-hover="home" href="#home">
+                        <img src="assets/img/icon/logo.png" alt="logo">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-9 d-none d-md-block">
+                     <div class="main-menu">
+                        <nav class="nav-menu">
+                           <ul id="nav_menu">
+                              <li class="active">
+                                 <a data-hover="home" href="#home">
+                                 <span>Home</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a data-hover="about" href="#about">
+                                 <span>About</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a data-hover="portfolio" href="#portfolio">
+                                 <span>Portfolio</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a data-hover="contact" href="#contact">
+                                 <span>Contact</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 d-block d-md-none">
+                     <div class="responsive-menu-wrap">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section id="home" class="slider-area parallax" style="background-color:#202020;" >
+         <div class="ddd" style="width:90%; margin:0 auto">
+            <div class="dd" style="">
+               <div class="row">
+                  <div class="col-sm-6" style="margin-top:9%; padding-left:10%">
+                     <div class="slider-content" >
+                        <h2 class="txtanim1"><span>I'm</span> <span>Naramsetty</span></h2>
+                        <h4 class="txtanim1 delay1"> <span>G</span> <span>R</span> <span>A</span> <span>P</span> <span>H</span> <span>I</span> <span>C</span> <span>D</span> <span>E</span> <span>S</span> <span>I</span> <span>G</span> <span>N</span> <span>E</span> <span>R</span></h4>
+                     </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align:center; ">
+                     <div class="slideshow-container">
+                        <div class="mySlides fade">
+                           <img src="aa.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                           <img src="bb.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                           <img src="cc.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                           <img src="ee.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                           <img src="dd.png" style="width:100%">
+                        </div>
+                     </div>
+                     <br>
+                     <div style="text-align:center">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                     </div>
+                     <script>
+                        var slideIndex = 0;
+                        showSlides();
+                        
+                        function showSlides() {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("dot");
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          slideIndex++;
+                          if (slideIndex > slides.length) {slideIndex = 1}    
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                          setTimeout(showSlides, 2000); // Change image every 2 seconds
+                        }
+                     </script>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="white_svg svg_white">
+            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+               <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
+            </svg>
+         </div>
+         <div class="txtanim1 next-section"> <span><a href="#about "><span style:"padding-right:10px!important"> about us</span> <strong><i class="fa fa-question-circle"></i></strong></a></span></div>
+      </section>
+      <section class="about-area" id="about">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-4">
+                  <div class="abt-left-thumb"> <img src="assets/img/about/abt-left-thumb.jpg" alt="image"></div>
+               </div>
+               <div class="col-md-7 offset-md-1">
+                  <div class="abt-content">
+                     <div class="section-title">
+                        <h2 class="txt2_is_show"><strong>About Me</strong></h2>
+                     </div>
+                     <p class="txt1-wrap"><span class="txt1">I am a Graphic Designer based in India, specializing in Logo Designs, Branding, User Interface Design and Development. I build clean, appealing, and functional deisngs which comply with the latest print and web standards. But that’s just a part of it. Design is my life. It’s something I do before going to bed, and something I can’t wait to do in the mornings. Without it, my world would be black and white.</span></p>
+                     <div class="social-link">
+                        <h5>Share :</h5>
+                        <a href="https://www.facebook.com/Naramsetty/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/i_am_naramsetty" target="_blank"><i class="fa fa-instagram"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="service-area pb--200">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="single-service txt2_is_show">
+                  <div class="icon"><span><img src="assets/img/sketch.png" height="60px" border="0"></span></div>
+                  <div class="srvc-content">
+                     <h4>Logo Designing</h4>
+                     <p>In this 21st Century a Logo is the silent ambassador of your brand. And we develop you the best logo for your needs.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="single-service txt2_is_show">
+                  <div class="icon"><span><img src="assets/img/wacom.png" height="60px" border="0"></span></div>
+                  <div class="srvc-content">
+                     <h4>Illustrations</h4>
+                     <p>From Custom Digital Art to Hand Drawn I can bring life your imagination and digitalize the concepts.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="single-service txt2_is_show">
+                  <div class="icon"><span><img src="assets/img/brand-identity.png" height="60px" border="0"></span></div>
+                  <div class="srvc-content">
+                     <h4>Corporate Branding</h4>
+                     <p>It starts with logo and goes on to many things like Busines Cards, Quotations Books, Stationary Etc., Everything is done here.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="white_svg svg_gray">
+            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+               <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
+            </svg>
+         </div>
+      </div>
+      <section class="fortfolio-area bg-gray pt--100 pb--200" id="portfolio">
+         <div class="container">
+            <div class="section-title">
+               <h2 class="txt2_is_show"><strong> Portfolio</strong></h2>
+            </div>
+            <div class="portfolio-masonary row" id="container">
+               <div class="prt-grid marketing design col-md-4 col-sm-6">
+                  <div class="prt-item"> <a class="expand-img" href="assets/img/portfolio/img1.jpg"><img src="assets/img/portfolio/img1.jpg" alt="image"></a></div>
+               </div>
+               <div class="prt-grid marketing web col-md-4 col-sm-6">
+                  <div class="prt-item"> <a class="expand-img" href="assets/img/portfolio/img2.jpg"><img src="assets/img/portfolio/img2.jpg" alt="image"></a></div>
+               </div>
+               <div class="prt-grid col-md-4 col-sm-6">
+                  <div class="prt-item"> <a class="expand-img" href="assets/img/portfolio/img3.jpg"><img src="assets/img/portfolio/img3.jpg" alt="image"></a></div>
+               </div>
+               <div class="prt-grid design marketing col-md-4 col-sm-6">
+                  <div class="prt-item"> <a class="expand-img" href="assets/img/portfolio/img4.jpg"><img src="assets/img/portfolio/img4.jpg" alt="image"></a></div>
+               </div>
+               <div class="prt-grid web design col-md-4 col-sm-6">
+                  <div class="prt-item"> <a class="expand-img" href="assets/img/portfolio/img5.jpg"><img src="assets/img/portfolio/img5.jpg" alt="image"></a></div>
+               </div>
+               <div class="prt-grid design marketing col-md-4 col-sm-6">
+                  <div class="prt-item"> <a class="expand-img" href="assets/img/portfolio/img6.jpg"><img src="assets/img/portfolio/img6.jpg" alt="image"></a></div>
+               </div>
+            </div>
+         </div>
+         <div class="white_svg svg_white">
+            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+               <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 " />
+            </svg>
+         </div>
+      </section>
+      <section class="contact-area ptb--100" id="contact">
+         <div class="container">
+            <div class="section-title">
+               <h2 class="txt2_is_show">Get In Tuch</h2>
+            </div>
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="cnt-left">
+                     <ul>
+                        <li>D No: 40-13-2, 3rd floor, <br>Beside lorry owners association hall,</br>Near benz circle, Chandramoulipuram,Vijayawada,</br> Andhra Pradesh, India.</span></li>
+                        <li>9642161333</li>
+                     </ul>
+                     <div class="social-link">
+                        <h5>Share :</h5>
+                        <a href="https://www.facebook.com/Naramsetty/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/i_am_naramsetty" target="_blank"><i class="fa fa-instagram"></i></a> <a target="_blank" href="https://api.whatsapp.com/send?phone=919642161333&text=Thanks%20for%20contacting%20me.%20I%20will%20get%20back%20to%20you%20real%20quick.%20Leave%20your%20messsage%20below."><i class="fa fa-whatsapp"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="contact-form">
+                     <div class="screen-reader-response"></div>
+                     <form action="https://forms.un-static.com/forms/a663f33034e3079136f21479351a03a7c1278cb7" method="POST" id="cf">
+                        <div class="row">
+                           <div class="col-md-6"> <input type="text" id="name" name="name" placeholder="Name Here*"></div>
+                           <div class="col-md-6"> <input type="email" id="email" name="email" placeholder="Email Here*"></div>
+                        </div>
+                        <textarea name="msg" id="msg" placeholder="Message Here*"></textarea>
+                        <div class="form-submit"> <button type="submit" name="submit" id="cnt_submit">Send Message <i class="fa fa-long-arrow-right"></i></button></div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="footer-area bg-gray">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-md-6 col-sm-4">
+                     <div class="flogo"> <a href="index-2.html"><img src="assets/img/icon/flogo.png" alt="logo"></a></div>
+                  </div>
+                  <div class="col-md-6 col-sm-8">
+                     <div class="copyright">
+                        <p>@Copyright By <span>Naramsetty</span></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="go-to-top"> <a href="#top"><i class="fa fa-angle-up"></i></a></div>
+            </div>
+         </div>
+      </footer>
+      <script src="assets/js/vendor/jquery-3.2.0.min.js"></script> <script src="assets/js/bootstrap.min.js"></script> <script src="assets/js/jquery.slicknav.min.js"></script> <script src="assets/js/jquery.magnific-popup.min.js"></script> <script src="assets/js/imagesloaded.pkgd.min.js"></script> <script src="assets/js/isotope.pkgd.min.js"></script> <script src="assets/js/plugins.js"></script> <script src="assets/js/scripts.js"></script> 
+   </body>
+</html>
+
