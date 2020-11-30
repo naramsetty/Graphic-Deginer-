@@ -720,17 +720,43 @@ h3 {
 	font-size: 27px
 }
 
+.abc {padding-top:9%!important; padding-left:10%!important}
+
+
+
 .go-to-top a:hover {
 	box-shadow: 0 -4px 9.9px .1px rgba(186, 187, 188, .25)
 }
+.ddd{
+	
+	width:100%; margin:0 auto
+}
+
+
+
+
+
+
 
 @media (max-width: 479px) and (min-width: 240px) {
+	.dddd{display:none!important}
+	
+	
+	
+	
+	
+	.abc{text-align:center!important;padding-left:0px!important;padding-right:0px!important}
 	.slider-area {
-		height: 400px!important;
+		height: 640px!important;
 	}
-	.ddd {
-		margin-top: 30px!important;
-	}
+	
+	
+	.slider-content h2 {
+    font-size: 42px!important;
+    line-height: 40px!important;
+    margin-bottom: 1px;}
+	
+	
 }
 
 .slider-area {
@@ -741,3 +767,8 @@ h3 {
 a:hover {
 	color: #ddd!important
 }
+
+
+
+
+
